@@ -1,0 +1,25 @@
+{
+  "name": "mern-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "yarn dev",
+    "server": "cd ./server && nodemon server.js",
+    "client": "cd ./client && yarn start",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexiszuck/mern-commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexiszuck/mern-commerce/issues"
+  },
+  "homepage": "https://github.com/alexiszuck/mern-commerce#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,11 +1,23 @@
+import TopBar from './components/TopBar'
+import PromotionBanner from './components/PromotionBanner'
+import SearchBar from './components/SearchBar'
+import ProductCategories from './components/ProductCategories'
+import BottomBar from './components/BottomBar'
+
 function App() {
   return (
-    <div className="">
-      <header className="flex bg-slate-800 w-screen h-screen">
-        <h1 className="mx-auto mt-8 text-3xl font-bold underline text-white">
-          Hello world!
-        </h1>
+    <div className="flex flex-col bg-mern-dark h-screen w-screen">
+      <header>
+        <TopBar />
+        <PromotionBanner />
       </header>
+      <main>
+        <SearchBar />
+        <ProductCategories />
+      </main>
+      <footer>
+        <BottomBar />
+      </footer>
     </div>
   );
 }
