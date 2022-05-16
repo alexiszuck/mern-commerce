@@ -6,7 +6,7 @@ import BottomBar from './components/BottomBar'
 
 function App() {
   return (
-    <div className="flex flex-col bg-mern-dark h-screen w-screen">
+    <div className="flex flex-col bg-mern-dark">
       <header>
         <TopBar />
         <PromotionBanner />
